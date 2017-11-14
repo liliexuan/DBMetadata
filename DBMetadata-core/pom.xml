@@ -6,6 +6,18 @@
   <groupId>com.github.abel533</groupId>
   <artifactId>DBMetadata-core</artifactId>
   <version>0.1.1</version>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
   <packaging>jar</packaging>
   <name>DBMetadata - 数据库元数据</name>
   <description>DBMetadata-core - 数据库元数据</description>

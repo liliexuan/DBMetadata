@@ -35,6 +35,7 @@ public class Launch {
         initClass();
         initUserInterface();
         SwingUtilities.invokeLater(new Runnable() {
+            @Override
             public void run() {
                 LoginFrame loginFrame = new LoginFrame();
                 // 绑定控制层并初始化
